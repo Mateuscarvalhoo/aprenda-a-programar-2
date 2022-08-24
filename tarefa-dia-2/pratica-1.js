@@ -14,6 +14,12 @@ let Viajar
 Viajar = "Tokyo"
 // =)
 
+console.log(meuNome)
+console.log(meuEmail)
+console.log(profissão)
+console.log(Idade)
+console.log(Viajar)
+
 
 
 
