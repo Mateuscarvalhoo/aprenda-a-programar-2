@@ -13,12 +13,8 @@ let Idade = "32"
 let Viajar
 Viajar = "Tokyo"
 // =)
-
-console.log(meuNome)
-console.log(meuEmail)
-console.log(profissão)
-console.log(Idade)
-console.log(Viajar)
+// =)
+console.log(meuNome,meuEmail,profissão,Idade,Viajar)
 
 
 
