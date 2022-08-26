@@ -1,6 +1,9 @@
-while(n <= 9){
-    let n =1
-    return console.log(n);
+
+let n = 1
+
+while (n <= 9) {
+    console.log (n)
+    n=n + 1
 }
     
 
