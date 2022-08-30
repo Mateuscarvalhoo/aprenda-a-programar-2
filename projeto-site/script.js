@@ -17,6 +17,7 @@ function adicionarCurso() {
 }
 const botao = document.querySelector('#btn-adicionar')
 botao.addEventListener('click', ()=>console.log('clicou'))
+// =)
 
 
 
