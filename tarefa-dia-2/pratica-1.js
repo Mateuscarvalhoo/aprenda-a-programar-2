@@ -19,7 +19,8 @@ console.log(meuNome,meuEmail,profissão,Idade,Viajar)
 let meusDados = [{
     nome:'mateus',
     email:'nerfalem123@gmail.com',
-    profissao: 'Tosador',
+    profissao
+    : 'Tosador',
     Idade:'32',
     Viajar:'Tokyo',
 }]
