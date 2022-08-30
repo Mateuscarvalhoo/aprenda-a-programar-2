@@ -11,13 +11,24 @@ function adicionarCurso() {
 
     const lista = document.querySelector('#lista')
     lista.appendChild(item)
+    inputCurso.value=""
     
 
 
 }
-const botao = document.querySelector('#btn-adicionar')
-botao.addEventListener('click', ()=>console.log('clicou'))
-// =)
+const botaoAdicionar = document.querySelector('#btn-adicionar')
+botaoAdicionar.addEventListener('click', adicionarCurso)
+
+function limparLista(){
+  const lista = document.querySelector('#lista')
+  lista.innerHTML = ""
+}
+
+const botaoLimpar = document.querySelector('.bt-azul')
+
+
+
+botaoLimpar.addEventListener('click', limparLista)
 
 
 
